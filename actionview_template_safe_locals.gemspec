@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["peter@peterschilling.org"]
 
   spec.summary       = %q{Allow passing reserved words like "class", "next" etc to partials}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/schpet/actionview_template_safe_locals"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
