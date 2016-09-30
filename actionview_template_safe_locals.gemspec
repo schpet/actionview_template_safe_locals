@@ -1,10 +1,10 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'action_view_template_safe_locals/version'
+require 'actionview_template_safe_locals/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "action_view_template_safe_locals"
+  spec.name          = "actionview_template_safe_locals"
   spec.version       = ActionViewTemplateSafeLocals::VERSION
   spec.authors       = ["Peter Schilling"]
   spec.email         = ["peter@peterschilling.org"]
