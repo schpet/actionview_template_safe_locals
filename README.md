@@ -1,4 +1,4 @@
-# ActionViewTemplateSafeLocals
+# ActionView::Template Safe Locals
 
 Changes ActionView::Template's render call to let you use ruby keywords as
 locals, so that this:
